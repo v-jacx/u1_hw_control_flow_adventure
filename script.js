@@ -203,11 +203,10 @@ const againChoice = () =>{
     }
 }
 
-
 let repeat = false;
 
-do{
 const weapon = chooseWeapon();
+do{
 usersChoice = prompt(`You are on the search for your next adventure.  You have found a village you hadn't seen before.`
                     +`  You see a bar up ahead and a fenced path with a sign that says "DO NOT ENTER!"`
                     +`  Where would you like to go?(bar/path)`);
